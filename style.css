@@ -1,13 +1,23 @@
-#h1{
-    background-color: black;
-    color: green;
+ul{
+    background-color: blue;
+    list-style: none;
     padding: 50px;
-    text-align: center;
 }
 
-#h2{
-    background-color: blue;
-    color: white;
-    margin: 50px;
-    text-align: center;
+ul li{
+    background-color: brown;
+    padding: 10px;
+    border-radius: 20px;
+   float: right;
+   margin: 5px;
+   position: relative;
+   bottom: 20px;
+   font-weight: 600;
+   color: white;
+   cursor: pointer;
+
+}
+ul li:hover{
+    background-color: black;
+   
 }
