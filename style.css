@@ -1,23 +1,57 @@
-ul{
+body {
+    margin: 0;
+    padding: 0;
+    margin-top: 0;
+
+}
+
+ul {
     background-color: blue;
     list-style: none;
     padding: 50px;
+    margin-top: 0;
 }
 
-ul li{
+ul li {
     background-color: brown;
     padding: 10px;
     border-radius: 20px;
-   float: right;
-   margin: 5px;
-   position: relative;
-   bottom: 20px;
-   font-weight: 600;
-   color: white;
-   cursor: pointer;
+    float: right;
+    margin: 5px;
+    position: relative;
+    bottom: 20px;
+    font-weight: 600;
+    color: white;
+    cursor: pointer;
 
 }
-ul li:hover{
+
+ul li:hover {
     background-color: black;
-   
 }
+
+@media screen and (min-width:480px) {
+    body {
+        background-color: aqua;
+    }
+
+    ul {
+        background-color: rgb(38, 255, 0);
+        list-style: none;
+        padding: 50px;
+        margin-top: 0;
+    }
+}
+
+@media screen and (min-width:580px) {
+    body {
+        background-color: black;
+    }
+}
+
+@media screen and (min-width:680px) {
+    body {
+        background-color: rgb(255, 0, 0);
+    }
+}
+
